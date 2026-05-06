@@ -1,5 +1,5 @@
 # Improving-Zero-shot-LLM-Re-Ranker-with-Risk-Minimization
-Code for UR3 Method of "Improving Zero-shot LLM Re-Ranker with Risk Minimization" Paper
+Code for UR3 Method of "Improving Zero-shot LLM Re-Ranker with Risk Minimization" Paper (EMNLP 2024)
 
 ## Overview
 In the Retrieval-Augmented Generation (RAG) system, advanced Large Language Models (LLMs) have emerged as effective Query Likelihood Models (QLMs) in an unsupervised way, which re-rank documents based on the probability of generating the query given the content of a document. However, directly prompting LLMs to approximate QLMs inherently is biased, where the estimated distribution might diverge from the actual document-specific distribution. In this study, we introduce a novel framework, UR3
